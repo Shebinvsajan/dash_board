@@ -1,0 +1,28 @@
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    width: 230px;
+    height: 100px;
+   align-items: center;
+}
+.icon {
+    color: black;
+  }
+  
+.red{
+    background-color: red;
+    color: #fff;
+}
+.green{
+    background-color: green;
+    color: #fff;
+}
+.blue{
+    background-color: rgb(40, 88, 201);
+    color: #fff;
+}
+.orange{
+    background-color: rgb(227, 134, 13);
+    color: #fff;
+}
+

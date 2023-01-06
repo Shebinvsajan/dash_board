@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import'../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+mat-drawer-container{
+    height: 80%;
+  
+}
+mat-drawer{
+    width: 250px;
+   
+}
+mat-drawer-content{
+    padding: 10px;
+}
+/* ::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+  }
+   */
