@@ -23,6 +23,8 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
 import { HighchartsChartModule } from 'highcharts-angular';
+import {MatTableModule} from '@angular/material/table';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +39,7 @@ import { HighchartsChartModule } from 'highcharts-angular';
  
   ],
   imports: [
+  
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -50,7 +53,10 @@ import { HighchartsChartModule } from 'highcharts-angular';
     MatMenuModule,
     MatListModule,
     MatCardModule,
-    HighchartsChartModule
+    HighchartsChartModule,
+    MatTableModule,
+   
+    
    
 
     
