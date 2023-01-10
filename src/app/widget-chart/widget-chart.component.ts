@@ -69,6 +69,16 @@ export class WidgetChartComponent {
                 marker: {
                 }
             }, 1.6, 3.3, 5.9, 10.5, 13.5, 14.5, 14.4, 11.5, 8.7, 4.7, 2.6]
+        },{
+            name: 'testing',
+            marker: {
+                symbol: 'circle'
+            },
+            data: [{
+              
+                marker: {
+                }
+            }, 1.7, 3.9, 5.0, 8.5, 13.9, 14.5, 14.4, 10.5, 8.9, 4.7, 2.6]
         }]
     
     }

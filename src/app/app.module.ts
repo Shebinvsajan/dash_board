@@ -7,7 +7,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
-import { DashbordComponent } from './dashbord/dashbord.component';
 import { WidgetCardComponent } from './widget-card/widget-card.component';
 import { WidgetChartComponent } from './widget-chart/widget-chart.component';
 import { WidgetTableComponent } from './widget-table/widget-table.component';
@@ -24,6 +23,11 @@ import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
 import { HighchartsChartModule } from 'highcharts-angular';
 import {MatTableModule} from '@angular/material/table';
+import { DashbordComponent } from './dashbord/dashbord.component';
+import { MatPaginatorModule } from '@angular/material/paginator';
+
+
+
 
 @NgModule({
   declarations: [
@@ -55,7 +59,7 @@ import {MatTableModule} from '@angular/material/table';
     MatCardModule,
     HighchartsChartModule,
     MatTableModule,
-   
+    MatPaginatorModule,
     
    
 
